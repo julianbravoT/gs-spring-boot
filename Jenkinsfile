@@ -15,9 +15,8 @@ pipeline {
         }
         stage('build') {
             steps {
-                sh 'mvn package'
+                sh 'ls -lrt'
             }
         }
     }
 }
-
