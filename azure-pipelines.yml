@@ -7,7 +7,8 @@ trigger:
 - dev
 
 pool:
-  name: mdp-ado-demo
+  name: azure-devops-vmss
+  #name: mdp-ado-demo
   #vmImage: ubuntu-latest
 
 steps:
